@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<defs>
+  <linearGradient id="g" x1="0" x2="1">
+    <stop offset="0" stop-color="#2563eb"/>
+    <stop offset="1" stop-color="#06b6d4"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="300" rx="28" fill="#0f172a"/>
+<circle cx="100" cy="70" r="3" fill="#38bdf8">
+  <animate attributeName="cy" values="70;48;70" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<circle cx="1100" cy="90" r="4" fill="#60a5fa">
+  <animate attributeName="cy" values="90;115;90" dur="2.8s" repeatCount="indefinite"/>
+</circle>
+<text x="600" y="76" text-anchor="middle" fill="#f8fafc" font-family="Arial,sans-serif" font-size="40" font-weight="700">E-Commerce Sales Intelligence</text>
+<text x="600" y="116" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="19">SQL Server • T-SQL • Power BI</text>
+<g font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<rect x="70" y="164" width="290" height="66" rx="15" fill="#172554" stroke="#2563eb"/>
+<text x="215" y="205" text-anchor="middle" fill="#bfdbfe">RAW DATA</text>
+<rect x="455" y="164" width="290" height="66" rx="15" fill="#083344" stroke="#06b6d4"/>
+<text x="600" y="205" text-anchor="middle" fill="#a5f3fc">SQL CLEANING</text>
+<rect x="840" y="164" width="290" height="66" rx="15" fill="#422006" stroke="#f59e0b"/>
+<text x="985" y="205" text-anchor="middle" fill="#fde68a">POWER BI</text>
+</g>
+<g stroke="url(#g)" stroke-width="4" stroke-linecap="round">
+<path d="M360 197 H455" stroke-dasharray="12 10">
+<animate attributeName="stroke-dashoffset" from="22" to="0" dur="0.9s" repeatCount="indefinite"/>
+</path>
+<path d="M745 197 H840" stroke-dasharray="12 10">
+<animate attributeName="stroke-dashoffset" from="22" to="0" dur="0.9s" repeatCount="indefinite"/>
+</path>
+</g>
+<text x="600" y="270" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="14">Clean → Transform → Analyze → Visualize</text>
+</svg>
